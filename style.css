@@ -1,0 +1,79 @@
+body {
+    background-color: #fce4ec; /* Fondo con corazoncitos o rosa claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.letter-window.open {
+    transform: scale(1);
+    opacity: 1;
+    background-color: #f8bbd0;
+    border: 4px solid #f06292;
+    box-shadow: 10px 10px 0px #ad1457;
+    width: 350px;
+    text-align: center;
+}
+
+.window-header {
+    background-color: #f06292;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 20px;
+    color: #ad1457;
+    margin: 10px 0;
+}
+
+#cat-img {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    padding: 20px;
+}
+
+.no-wrapper {
+    position: relative;
+}
+
+.btn {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    user-select: none;
+    border: 2px solid #ad1457;
+    background-color: white;
+    color: #ad1457;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.yes-btn:hover {
+    background-color: #f06292;
+    color: white;
+}
+
+/* El estilo para cuando ya aceptó */
+.success-msg {
+    font-size: 14px;
+    color: #880e4f;
+    margin-top: 10px;
+}
