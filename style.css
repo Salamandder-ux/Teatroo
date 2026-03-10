@@ -1,5 +1,5 @@
 body {
-    background-color: #fce4ec; /* Fondo con corazoncitos o rosa claro */
+    background-color: #fce4ec; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,4 +76,5 @@ h1 {
     font-size: 14px;
     color: #880e4f;
     margin-top: 10px;
+
 }
